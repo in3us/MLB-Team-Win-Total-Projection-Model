@@ -47,16 +47,16 @@ A regression-based model was used to translate team-level metrics into projected
 Model performance was evaluated using cross-validation on unseen data to ensure the results were not driven by overfitting.
 
 **Validation metrics:**
-- **Mean Absolute Error (MAE):** ~2.5 wins  
-- **Root Mean Squared Error (RMSE):** ~3.4 wins  
-- **R²:** ~0.89  
+- Mean Absolute Error (MAE): 2.5 wins  
+- Root Mean Squared Error (RMSE): 3.4 wins  
+- R²: 0.89  
 
 These results indicate strong predictive power and low average error for team win total forecasting. Errors appear small for a 162 game season.
 
 ---
 
 ## Market Comparison
-Model team win total projections were compared to DraftKings Sportsbook win total over/unders to further validate model accuracy. An r2 of .9182 was achieved when comparing the two. This comparison demonstrates that the model is well-calibrated while still providing independent output.
+Model team win total projections were compared to DraftKings Sportsbook win total over/unders to further validate model accuracy. An r2 of .9182 was achieved when comparing the two. This comparison demonstrates that the model is well-calibrated while still providing it's own output.
 
 ---
 
@@ -65,6 +65,7 @@ Model team win total projections were compared to DraftKings Sportsbook win tota
 - For a production-level projection it may be beneficial to use more than three years of historical data.
 - Data quality and feature selection are of the utmost improtance.
 - Benchmarking against proven markets is a valuable validation tool.
+- The Colorado Rockies projected win total appears to be an outlier. This could be due to the fact that they play half their games in baseball's most hitter friendly park which exaggerates their already poor pitching projections. It is unclear if season-long projection systems attempt to calibrate for home ballpark. Further analysis on this could be done.
 
 ---
 
