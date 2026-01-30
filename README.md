@@ -9,6 +9,12 @@ Predict team-level win totals in a way that is:
 
 ---
 
+## Results
+
+[Full model inputs and outputs (Google Sheet)](https://docs.google.com/spreadsheets/d/1Bn2G2w-NLKm78kQ27LpkRBgz-FAbYPT30Vjd82gPc_U/edit?gid=1174515623)
+
+---
+
 ## Data Inputs
 
 ### 2023-2025 Historical Team-Level Metrics
