@@ -63,7 +63,7 @@ Model team win total projections were compared to DraftKings Sportsbook win tota
 ## Key Takeaways and Potential Improvements
 - Team-level wins can be predicted effectively using a small number of carefully selected metrics. There is perhaps even some redundancy in the metrics selected that could be further refined.
 - For a production-level projection it may be beneficial to use more than three years of historical data.
-- Data quality and feature selection are of the utmost improtance.
+- Data quality and feature selection are of the utmost importance.
 - Benchmarking against proven markets is a valuable validation tool.
 - The Colorado Rockies projected win total appears to be an outlier. This could be due to the fact that they play half their games in baseball's most hitter friendly park which exaggerates their already poor pitching projections. It is unclear if season-long projection systems attempt to calibrate for home ballpark. Further analysis on this could be done.
 
